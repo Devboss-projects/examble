@@ -1,0 +1,299 @@
+{
+    "items": [
+        {
+            "command": "ls",
+            "usage": "ls [options] [file/directory]",
+            "img": "assets/images/command/ls.png",
+            "description": "The most frequently used command in Linux to list directories"
+        },
+        {
+            "command": "pwd",
+            "usage": "pwd",
+            "img": "assets/images/command/pwd.png",
+            "description": "Print working directory command in Linux"
+        },
+        {
+            "command": "cd",
+            "usage": "cd <directory path>",
+            "img": "assets/images/command/cd.png",
+            "description": "Linux command to navigate through directories"
+        },
+        {
+            "command": "mkdir",
+            "usage": "mkdir <folder name>",
+            "img": "assets/images/command/mkdir.png",
+            "description": "Command used to create directories in Linux"
+        },
+        {
+            "command": "mv",
+            "usage": "mv <source> <destination>",
+            "img": "assets/images/command/mv.png",
+            "description": "Move or rename files in Linux"
+        },
+        {
+            "command": "cp",
+            "usage": "cp <source> <destination>",
+            "img": "assets/images/command/cp.png",
+            "description": "Similar usage as mv but for copying files in Linux"
+        },
+        {
+            "command": "rm",
+            "usage": "rm <file name>",
+            "img": "assets/images/command/rm.png",
+            "description": "Delete files or directories"
+        },
+        {
+            "command": "touch",
+            "usage": "touch <file name>",
+            "img": "assets/images/command/touch.png",
+            "description": "Create blank/empty files"
+        },
+        {
+            "command": "ln",
+            "usage": "ln -s <source path> <link name>",
+            "img": "assets/images/command/ln.png",
+            "description": "Create symbolic links (shortcuts) to other files"
+        },
+        {
+            "command": "cat",
+            "usage": "cat <file name>",
+            "img": "assets/images/command/cat.png",
+            "description": "Display file contents on the terminal"
+        },
+        {
+            "command": "clear",
+            "usage": "clear",
+            "img": "assets/images/command/clear.png",
+            "description": "Clear the terminal display"
+        },
+        {
+            "command": "echo",
+            "usage": "echo <Text to print on terminal>",
+            "img": "assets/images/command/echo.png",
+            "description": "Print any text that follows the command"
+        },
+        {
+            "command": "less",
+            "usage": "cat /boot/grub/grub.cfg  | less",
+            "description": "Linux command to display paged outputs in the terminal"
+        },
+        {
+            "command": "man",
+            "usage": "man <command>",
+            "description": "Access manual pages for all Linux commands"
+        },
+        {
+            "command": "uname",
+            "usage": "uname -a",
+            "img": "assets/images/command/uname.png",
+            "description": "Linux command to get basic information about the OS"
+        },
+        {
+            "command": "whoami",
+            "usage": "whoami",
+            "img": "assets/images/command/whoami.png",
+            "description": "Get the active username"
+        },
+        {
+            "command": "tar",
+            "usage": "tar -cvf <archive name> <files seperated by space>",
+            "img": "assets/images/command/tar.png",
+            "description": "Command to extract and compress files in Linux"
+        },
+        {
+            "command": "grep",
+            "usage": "<any command with output> | grep '<string to find>'",
+            "img": "assets/images/command/grep.png",
+            "description": "Search for a string within an output"
+        },
+        {
+            "command": "head",
+            "usage": "head <file name>",
+            "img": "assets/images/command/head.png",
+            "description": "Return the specified number of lines from the top"
+        },
+        {
+            "command": "tail",
+            "usage": "tail <file name>",
+            "img": "assets/images/command/tail.png",
+            "description": "Return the specified number of lines from the bottom"
+        },
+        {
+            "command": "diff",
+            "usage": "diff <file 1> <file 2>",
+            "img": "assets/images/command/diff.png",
+            "description": "Find the difference between two files"
+        },
+        {
+            "command": "cmp",
+            "usage": "cmp <file1> <file2>",
+            "img": "assets/images/command/cmp.png",
+            "description": "Allows you to check if two files are identical"
+        },
+        {
+            "command": "comm",
+            "usage": "comm <file1> <file2>",
+            "img": "assets/images/command/comm.png",
+            "description": "Combines the functionality of diff and cmp"
+        },
+        {
+            "command": "sort",
+            "usage": "sort <filename>",
+            "img": "assets/images/command/sort.png",
+            "description": "Linux command to sort the content of a file while outputting"
+        },
+        {
+            "command": "export",
+            "usage": "export <variable name>=<value>",
+            "description": "Export environment variables in Linux"
+        },
+        {
+            "command": "zip",
+            "usage": "zip <archive name> <file names separated by space>",
+            "img": "assets/images/command/zip.png",
+            "description": "Zip files in Linux"
+        },
+        {
+            "command": "unzip",
+            "usage": "unzip <archive name>",
+            "img": "assets/images/command/unzip.png",
+            "description": "Unzip files in Linux"
+        },
+        {
+            "command": "ssh",
+            "usage": "ssh username@hostname",
+            "description": "Secure Shell command in Linux"
+        },
+        {
+            "command": "service",
+            "usage": "service ssh status/start/stop",
+            "img": "assets/images/command/service.png",
+            "description": "Linux command to start and stop services"
+        },
+        {
+            "command": "ps",
+            "usage": "ps",
+            "img": "assets/images/command/ps.png",
+            "description": "Display active processes"
+        },
+        {
+            "command": "kill / killall",
+            "usage": "kill <process ID> or killall <process name>",
+            "img": "assets/images/command/kill.png",
+            "description": "Kill active processes by process ID or name"
+        },
+        {
+            "command": "df",
+            "usage": "df -h",
+            "img": "assets/images/command/df.png",
+            "description": "Display disk filesystem information"
+        },
+        {
+            "command": "mount",
+            "usage": "mount /dev/cdrom /mnt",
+            "img": "assets/images/command/mount.png",
+            "description": "Mount file systems in Linux"
+        },
+        {
+            "command": "chmod",
+            "usage": "chmod root:root loop.sh",
+            "img": "assets/images/command/chmod.png",
+            "description": "Command to change file permissions"
+        },
+        {
+            "command": "chown",
+            "usage": "chown -h",
+            "img": "assets/images/command/chown.png",
+            "description": "Command for granting ownership of files or folders"
+        },
+        {
+            "command": "ifconfig",
+            "usage": "ifconfig",
+            "img": "assets/images/command/ifconfig.png",
+            "description": "Display network interfaces and IP addresses"
+        },
+        {
+            "command": "traceroute",
+            "usage": "traceroute <destination address>",
+            "img": "assets/images/command/traceroute.png",
+            "description": "Trace all the network hops to reach the destination"
+        },
+        {
+            "command": "wget",
+            "usage": "wget <link to file> or wget -c <link to file>",
+            "img": "assets/images/command/wget.png",
+            "description": "Direct download files from the internet"
+        },
+        {
+            "command": "iptables",
+            "usage": "iptables -A INPUT -p tcp -m tcp --dport 80 -j ACCEPT",
+            "img": "assets/images/command/iptables.png",
+            "description": "Base firewall for all other firewall utilities to interface with"
+        },
+        {
+            "command": "ufw",
+            "usage": "ufw allow 80",
+            "img": "assets/images/command/ufw.png",
+            "description": "Firewall command"
+        },
+        {
+            "command": "apt,pacman,yum,rpm",
+            "usage": "apt -h",
+            "description": "Package managers depending on the distro"
+        },
+        {
+            "command": "sudo",
+            "usage": "sudo <command you want to run>",
+            "img": "assets/images/command/sudo.png",
+            "description": "Command to escalate privileges in Linux"
+        },
+        {
+            "command": "cal",
+            "usage": "cal or cal May 2019",
+            "img": "assets/images/command/cal.png",
+            "description": "View a command-line calendar"
+        },
+        {
+            "command": "alias",
+            "usage": "alias lsl='ls -l' or alias rmd='rm -r'",
+            "img": "assets/images/command/alias.png",
+            "description": "Create custom shortcuts for your regularly used commands"
+        },
+        {
+            "command": "dd",
+            "usage": "dd if = /dev/sdb of = /dev/sda",
+            "img": "assets/images/command/dd.png",
+            "description": "Majorly used for creating bootable USB sticks"
+        },
+        {
+            "command": "whereis",
+            "usage": "whereis sudo",
+            "img": "assets/images/command/whereis.png",
+            "description": "Locate the binary, source, and manual pages for a command"
+        },
+        {
+            "command": "whatis",
+            "usage": "whatis sudo",
+            "img": "assets/images/command/whatis.png",
+            "description": "Find what a command is used for"
+        },
+        {
+            "command": "top",
+            "usage": "top",
+            "img": "assets/images/command/top.png",
+            "description": "View active processes live with their system usage"
+        },
+        {
+            "command": "useradd and usermod",
+            "usage": "useradd Dbs -d /home/Dbs",
+            "img": "assets/images/command/useradd.png",
+            "description": "Add new user or change existing users data"
+        },
+        {
+            "command": "passwd",
+            "usage": "passwd",
+            "img": "assets/images/command/passwd.png",
+            "description": "Create or update passwords for existing users"
+        }
+    ]
+}
